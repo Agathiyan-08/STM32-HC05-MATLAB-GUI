@@ -1,22 +1,20 @@
 Setup & Installation
-
-1) STM32 Setup
-
+1) STM32 Setup: 
 Flash the provided firmware to your STM32 board
 Connect HC-05 module to USART3 pins:
-
 TX → RX (PB11)
+
 RX → TX (PB10)
 VCC → 3.3V
 GND → GND
 
-2) MATLAB Setup
+3) MATLAB Setup
 Ensure MATLAB has Instrument Control Toolbox
 Pair HC-05 with your computer (default PIN: 1234)
 Run the MATLAB GUI script
 Select the correct COM port for Bluetooth connection
 
-3) Usage
+4) Usage
 Power on the STM32 system
 The HC-05 module will enter pairing mode
 Launch MATLAB GUI and establish Bluetooth connection

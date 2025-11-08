@@ -1,11 +1,15 @@
 Setup & Installation
 1) STM32 Setup: 
 Flash the provided firmware to your STM32 board
-Connect HC-05 module to USART3 pins:
+
+2) Connect HC-05 module to USART3 pins:
+
 TX → RX (PB11)
 
 RX → TX (PB10)
+
 VCC → 3.3V
+
 GND → GND
 
 3) MATLAB Setup
